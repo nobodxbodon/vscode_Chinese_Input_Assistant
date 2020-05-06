@@ -1,0 +1,41 @@
+{
+	"name": "ztest",
+	"displayName": "中文代码提示插件",
+	"description": "中文变量名方法名在拼音字母下提示并快速输入",
+	"version": "1.0.0",
+	"publisher": "zj1d",
+	"engines": {
+		"vscode": "^1.38.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"*",
+		"onCommand:插件命令"
+	],
+	"main": "./插件.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "插件命令",
+				"title": "中文插件"
+			}
+		]
+	},
+	"scripts": {
+		"test": "node ./test/runTest.js"
+	},
+	"devDependencies": {
+		"@types/glob": "^7.1.1",
+		"@types/mocha": "^5.2.6",
+		"@types/node": "^10.12.21",
+		"@types/vscode": "^1.38.0",
+		"eslint": "^5.13.0",
+		"glob": "^7.1.4",
+		"mocha": "^6.1.4",
+		"typescript": "^3.3.1",
+		"vscode-test": "^1.2.0"
+	}
+
+}
