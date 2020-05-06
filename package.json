@@ -1,6 +1,6 @@
 {
 	"name": "ChineseInputAssistant",
-	"displayName": "中文代码提示插件",
+	"displayName": "中文代码快速补全",
 	"description": "中文变量名方法名在拼音字母下提示并快速输入",
 	"version": "1.0.0",
 	"publisher": "CodeInChinese",
